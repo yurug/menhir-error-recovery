@@ -1,0 +1,40 @@
+def f (x, y) {
+   x = 0;
+   return x
+}
+
+def g (z) {
+   x = 0;
+   return y;
+}
+
+def h (i) {
+   if 0 then {
+}
+
+def foo () {
+   return 0;
+}
+
+def bar () {
+    x =
+}
+
+def correct (a, b, c, d) {
+}
+
+def deep () {
+  if 0 then {
+    if then {} else {};
+  } else {};
+}
+
+def stillok () {}
+
+def missingSemicolon () {
+  if 0 then {
+    if 1 then {} else {}
+  } else {};
+}
+
+def stillfine () {}

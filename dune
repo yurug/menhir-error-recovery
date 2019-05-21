@@ -1,0 +1,9 @@
+(ocamllex lexer)
+
+(menhir
+  (modules parser)
+  (flags --explain --inspection --table --dump)
+)
+
+(executable (name parse)
+	    (libraries menhirLib))
